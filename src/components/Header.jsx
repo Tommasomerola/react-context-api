@@ -10,7 +10,8 @@ export default function Header () {
                 <NavLink to="/">HomePage</NavLink>
                 <NavLink to="/chisiamo">Chi siamo</NavLink>
                 <NavLink to="/posts">Lista dei post</NavLink>
-                {/* <NavLink to="/posts/create">add Post</NavLink> */}
+                <NavLink to="/posts/create">add Post</NavLink> 
+                
             </div>
         </header>
     )
