@@ -4,6 +4,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Layout
 import DefaultLayout from "./layouts/DefaultLayout";
 
+// importiamo GlobalContext
+import GlobalContext from "./context/GlobalContext";
+
+// gestione listato post
+import { useState, useEffect } from "react";
+import axios from "axios";
+
+
 // Pages
 import HomePage from "./pages/HomePage"
 import ChiSiamo from "./pages/ChiSiamo"
