@@ -29,10 +29,10 @@ export default function PostDetail() {
     return (
         <>
             <nav>
-                <Link to={`/posts/${parseInt(id) - 1}`}>Prev</Link>
-                <Link to={`/posts/${parseInt(id) + 1}`}>Next</Link>
+                <Link id="prev-botton" to={`/posts/${parseInt(id) - 1}`}>Prev</Link>
+                <Link id="next-botton" to={`/posts/${parseInt(id) + 1}`}>Next</Link>
             </nav>
-            
+
             <h2>{post.title}</h2>
             <img src={post.image} alt={post.title} />
             <p>{post.content}</p>
